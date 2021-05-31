@@ -1,0 +1,1246 @@
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__content{
+    display: flex;
+    align-items: center ;
+}
+
+.picto__cloud{
+    height: 27px;
+    width: 27px;
+}
+
+.header__date{
+    margin: 0px 0px 0px 8px;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    text-align: left;
+    color: #003B5C
+}
+
+.header__city{
+    margin: 0px 0px 0px 8px;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    text-align: left;
+    color: #5D534F;
+}
+
+.header__logo{
+    width: 235px;
+    height: 64px;
+}
+
+.header__top__about{
+    text-decoration: none;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    text-align: left;
+    color: #003B5C;
+    margin-right: 38px;
+}
+
+.header__top__search{
+    text-decoration: none;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    text-align: left;
+    color: #003B5C;
+    margin-right: 38px;
+}
+
+.header__top__insta{
+    height: 17px; 
+    width: 17px;
+    padding-top: 10px;
+}
+
+.line{
+    position: absolute; 
+    left: 0;
+    border: 1px solid #E3DACC80;
+    margin: 21.5px 0px 15px 0px;
+    width: 100%;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.nav__menu{
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    padding-left: 484px;
+    padding-right: 482px;
+    padding-top:20px;
+}
+
+.nav__link{
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #003B5C;
+    letter-spacing: 0.342857px;
+    padding-right: 50px;
+}
+
+.hero__section{
+    display: flex;
+    height: 697px;
+    width: 100%;
+    padding-left: 45px;
+}
+
+.hero__left .hero__img{
+    width: 736px;
+    height: 475px;
+    top: 0px;
+    left: 0px;
+}
+
+.hero__right .hero__img{
+    width: 519px;
+    height: 335px;
+    top: 0px;
+    right: 0px;
+}
+
+.hero__left .hero__content{
+    border: 1px solid white;
+    width: 520px;
+    height: 250px;
+    background-color: white;
+    margin-left: 108px;
+    margin-top: -40px;
+    position: relative;
+}
+
+.hero__type{
+    display: flex;
+}
+
+.hero__type h5{
+    padding-left: 148px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.031px;
+    text-transform: uppercase;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #003B5C;
+}
+
+.hero__type p{
+    padding-left: 5px;
+    padding-top:8px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.031px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: rgba(93, 83, 79, 0.6);
+}
+
+.hero__title{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #003B5C;
+    width: 446px;
+    height: 78px;
+    padding-left: 37px;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.hero__title p{
+    margin: 0 auto;
+}
+
+.hero__description{
+    height: 84px;
+    left: 14.67%;
+    right: 14.67%;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #5D534F;
+}
+
+.hero__link{
+    height: 15px;
+    left: 0%;
+    right: 25.66%;
+
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: center;
+    letter-spacing: 0.398968px;
+    text-decoration: none;
+    color: #E74832;
+
+    padding-top:19px;
+}
+
+.hero__right .hero__type{
+    border: 1px solid white;
+    width: 440px;
+    height: 55px;
+    background-color: white;
+    margin-left: 39px;
+    margin-top: -40px;
+    position: relative;
+}
+
+.hero__right .hero__title {
+    width: 441px;
+    height: 117px;
+    top: 350px;
+    left: 39px;
+}
+
+.hero__right{
+    width:519px;
+    height: 597px;
+}
+
+.hero__left{
+    width:736px;
+    height: 697px;
+    padding-right: 21px;
+}
+
+.heading__section{
+    width: 100%;
+    height: 491px;
+    padding: 50px 0px 0px 46px;
+}
+
+.heading__section.lifestyle9{
+    padding-top: 616px;
+}
+
+.heading__title__background__rectangle{
+    width: 169px;
+    height: 38px;
+    margin-left: 601px;
+    position: relative;
+    background-color: #E5DBD1;
+    display: flex;
+}
+
+.heading__category__title{
+    width: 172px;
+    height: 41px;
+    background: white;
+    border: 1px solid #E5DBD1;
+    margin-right: 4px;
+    margin-top: -10px;
+}
+
+.heading__category__title p{
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #003B5C;
+    margin-top: 4px;
+}
+
+.heading__grid {
+    display: flex;
+}
+
+.heading__item .hero__type h5{
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.heading__item .hero__type p{
+    margin-top: 6px;
+}
+
+.heading__item{
+    width: 411px;
+    height: 393px;
+    padding-left: 21px;
+}
+
+.heading__title{
+    width: 410px;
+    height: 62px;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+    color: #003B5C;
+}
+
+.heading__title p{
+    margin: 0%;
+}
+
+.heading__item .hero__link{
+    padding-top: 11px;
+    text-align: left;
+}
+
+.heading__subcategories{
+    display: flex;
+    width: 1295px;
+}
+
+.subcategories__list{
+    display: flex;
+    list-style: none;
+    padding-left: 445.5px;  
+}
+
+
+.subcategories__link{
+    text-decoration: none;
+    padding-left: 21px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.031px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    color: rgba(79, 77, 77, 0.6);
+}
+
+.heading__subcategories .hero__link{
+    padding-left: 348px;
+}
+
+.heading__subcategories .lifestyle_1{
+    padding-left: 411px;
+}
+
+.heading__subcategories .lifestyle{
+    padding-left: 310px;
+}
+
+.heading__subcategories .montres{
+    padding-left: 540px;
+}
+
+.newsletter__section{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 456px;
+    background-image: url('../img/newsletter.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    margin-top: 75px;
+}
+
+.newsletter__title{
+    width: 672px;
+    height: 54px;
+    padding-top: 50px;
+    padding-left: 348px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.866667px;
+    color: #FFFFFF;
+}
+
+.newsletter__desc{
+    width: 904px;
+    height: 62px;
+    padding-top: 70px;
+    padding-left: 232px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+}
+
+.newsletter__button__background__rectangle{
+    width: 251.79px;
+    height: 50px;
+    margin-left: 561.21px;
+    position: relative;
+    background-color: #E74832;
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 4px;
+}
+
+.btn-red-white{
+    width: 248.57px;
+    height: 50px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.031px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.499742px;
+    color: #003B5C;
+    background-color: white;
+    border: 1px solid #003B5C;
+    margin-top: -5px;
+    text-transform: uppercase;
+}
+
+.footer__main{
+    margin-top: 75px;
+    position: absolute;
+    left:0;
+    width: 100%;
+    height: 390px;
+    background-image: url(../img/footer.png);
+}
+
+.footer__logo{
+    width: 285px;
+    height: 138px;
+    padding-top: 65px;
+    padding-left: 45px;
+}
+
+.footer__item{
+    display: flex;
+}
+
+.footer_category{
+    width: 101px;
+    height: 131px;
+    padding-top: 100px;
+    padding-left: 147px;
+}
+
+.footer__category__newsletter{
+    width: 215px;
+    height: 131px;
+    padding-top: 100px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px; 
+    letter-spacing: -0.55px;
+    color: #FFFFFF;
+    padding-left: 130px;
+}
+
+.btn-red{
+    width: 183px;
+    height: 44px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.398968px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    margin-top: -5px;
+    text-transform: uppercase;
+}
+
+.subcategories__f__list{
+    list-style: none;
+    padding: 0;
+}
+
+.subcategories__f__item{
+    padding-bottom: 10px;
+}
+
+.subcategories__f__link{
+    text-decoration: none;
+    font-family: 'HK Grotesk';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer_category p{
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.55px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.footer__category__social{
+    width: 115px;
+    height: 26px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.55px;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-left: 83px;
+}
+
+.social__list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social__item{
+    padding-right: 31px;
+}
+
+.footer__line{
+    margin-left: 45px;
+    border: 1px solid #E3DACC80;
+    width: 1400px;
+}
+
+.footer__divider{
+    margin-top: 75px;
+    margin-bottom: 15px;
+}
+
+.footer__bottom{
+    display: flex;
+}
+
+.footer__content__1{
+    padding-left: 45px;
+    padding-right: 1098px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__content__2{
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/* MEDIA QUERIES
+
+Responsive Design pour Ipad Pro (1024px) */
+
+@media(max-width: 1024px){
+
+
+    .header__logo{
+        height: auto;
+        width: auto;
+        padding-left: 35px;
+    }
+
+    .header__content{
+        padding-left: 70px;
+    }
+
+    .hero__img{
+        height: auto;
+    }
+
+    .nav__list{
+        height: auto;
+        width: auto;
+        padding: 20px 0px 0px 305px;
+    }
+
+    .hero__section{
+        display: block;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        top: 0;
+        left: 0;
+        padding-left: 135px;
+    }
+
+    .hero__left{
+        height: auto;
+        width: 100%;
+        padding-right: 0%;
+    }
+
+    .hero__right{
+        height: auto;
+        width: auto;
+        padding-top: 50px;
+        padding-left: 120px;
+    }
+
+    .hero__right .hero__description{
+        width: 519px;
+        height: auto;
+    }
+
+    .hero__right .hero__link{
+        width: 519px;
+        height: auto;
+    }
+
+    .heading__section{
+        width: auto;
+        height: auto;
+        padding: 50px 0px 0px 300px;
+    }
+
+    .heading__title__background__rectangle{
+        margin-left: 120px;
+    }
+
+    .heading__subcategories .montres{
+        padding-left: 50px;
+    }
+
+    .heading__subcategories{
+        display: block;
+        padding-bottom: 10px;
+        width: auto;
+    }
+
+    .heading__subcategories .hero__link{
+        padding-left: 170px;
+    }
+
+    .heading__grid{
+        display: block;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading__item{
+        padding-bottom: 25px;
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .subcategories__list{
+        padding-left: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    .subcategories__item{
+        width: auto;
+        height: auto;
+    }
+
+    .subcategories__link{
+        padding-right: 21px;
+        padding-left: 3px;
+    }
+
+    .newsletter__section{
+        height: auto;
+        width: 100%;
+    }
+
+    .newsletter__title{
+        padding-top: 10px;
+        padding-left: 180px;
+    }
+
+    .newsletter__desc{
+        padding-top: 50px;
+        padding-left: 160px;
+        width: 70%;
+        height: auto;
+    }
+
+    .newsletter__button__background__rectangle{
+       margin-left: 380px;
+       margin-bottom: 50px;
+    }
+
+    .heading__subcategories .lifestyle_1{
+        padding-left: 0;
+    }
+
+    .heading__section.lifestyle9{
+        padding-top: 490px;
+    }
+
+    .footer__main{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer__item{
+        display: block;
+    }
+
+    .footer__logo{
+        width: auto;
+        height: auto;
+        padding: 20px 0px 0px 370px;
+    }
+
+    .footer_category{
+        height: auto;
+        width: auto;
+        padding-top: 10px;
+        padding-left: 215px;
+        margin-bottom: -10px;
+    }
+
+    .footer_category.one{
+        margin-bottom: -30px;
+    }
+
+    .footer_category.two{
+        margin-bottom: -440px;
+    }
+
+    .footer__category__newsletter{
+        padding-left: 600px;
+    }
+
+    .footer__category__social{
+        padding-left: 640px;
+        padding-top: 85px;
+    }
+
+    .footer__divider{
+        margin-top: 100px;
+    }
+
+    .footer__line{
+        width: 930px;
+        height: auto;
+    }
+
+    .footer__content__1{
+       width: 300px; 
+       height: auto;
+       padding-right: 490px;
+    }
+
+    .footer__bottom{
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Responsive Design pour iPhone X (375px) */
+
+@media(device-width: 375px){
+
+    body{
+        width: auto;
+        height: auto;
+    }
+
+    .header__main{
+       width: auto;
+       height: auto; 
+    }
+
+    .header__content{
+        padding-left: 10px;
+    }
+
+    .header__nav{
+        padding: 0px;
+    }
+
+    .header__logo{
+        padding-left: 20px;
+    }
+
+    .header__logo img{
+        height: 50px;
+        width: 150px;
+    }
+
+    .header__date{
+        font-size: 8px;
+        width: 53px;
+    }
+
+    .header__city{
+        font-size: 8px;
+    }
+
+    .header__top__menu{
+        padding-left: 30px;
+        width: auto;
+        height: auto;
+    }
+
+    .header__top__about{
+        font-size: 8px;
+    }
+
+    .header__top__search{
+        font-size: 8px;
+    }
+
+    .header__top__insta img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .header__top__insta{
+        padding-left: 18px;
+    }
+
+    .header__nav{
+        width: auto;
+    }
+
+    .line{
+        width: 373px;
+        height: 2px;
+    }
+
+    .nav__list{
+        width: auto;
+        height: auto;
+        padding: 20px 0px 0px 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__link{
+        font-size: 8px;
+    }
+
+    .nav__item{
+        padding-bottom: 2px;
+    }
+
+    .hero__section{
+        padding: 0;
+        padding-bottom: 30px;
+        width: auto;
+    }
+
+    .hero__img{
+        width: auto;
+    }
+
+    .hero__left .hero__img{
+        width: 360px;
+        height: auto;
+    }
+
+    .hero__left .hero__img img{
+        width: 360px;
+        height: 260px;
+    }
+
+    .hero__left .hero__content{
+        margin-left: 0px;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .hero__type{
+        margin-bottom: -15px;
+    }
+
+    .hero__type h5{
+        font-size: 8px;
+        padding-left: 100px;
+    }
+
+    .hero__type p{
+        font-size: 8px;
+        padding-top: 5px;
+    }
+
+    .hero__title{
+        width: auto;
+        height: auto;
+        padding-left: 0px;
+        font-size: 22px;
+        margin-bottom: -15px;
+    }
+
+    .hero__description{
+        font-size: 12px;
+    }
+
+    .hero__link{
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    .arrow{
+        width: 15px;
+        padding-bottom: 1px;
+    }
+
+    .hero__section .hero__right{
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .hero__right .hero__img{
+        width: auto;
+        height: auto;
+    }
+
+    .hero__right .hero__img img{
+        width: 360px;
+    }
+
+    .hero__right .hero__type{
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .hero__right .hero__title{
+        margin-top: 5px;
+        width: auto;
+        height: auto;
+    }
+
+    .hero__right .hero__description{
+        padding-top: 15px;
+        width: auto;
+        height: auto;
+    }
+
+    .hero__right .hero__link{
+        padding-top: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    .newsletter__section{
+        width: auto;
+        height: 250px;
+        margin-top: 0;
+    }
+
+    .newsletter__title{
+        padding: 0;
+        font-size: 20px;
+        width: auto;
+        height: auto;
+    }
+
+    .newsletter__desc{
+        width: auto;
+        height: auto;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .newsletter__button__background__rectangle{
+        margin-left: 110px;
+        margin-top: 25px;
+        width: 150px;
+        height: 35px;
+    }
+
+    .btn-red-white{
+        width: 150px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .heading__section{
+        padding: 0;
+    }
+
+    .heading__title__background__rectangle{
+        width: 100px;
+        height: 25px;
+        margin-left: 130px;
+    }
+
+    .heading__category__title{
+        width: 100px;
+        height: 25px;
+        margin-right: 2px;
+        margin-top: -5px;
+    }
+
+    .heading__category__title p{
+        font-size: 16px;
+        margin-top: -3px;
+    }
+
+    .subcategories__link{
+        font-size: 9px;
+        padding-right: 10px;
+    }
+
+    .heading__subcategories .montres{
+        padding-left: 75px;
+    }
+
+    .heading__subcategories .hero__link{
+        font-size: 8px;
+        padding-left: 155px;
+    }
+
+    .heading__img img{
+        width: 360px;
+        height: auto;
+    }
+    .heading__title{
+        padding-top: 10px;
+        font-size: 18px;
+        width: auto;
+    }
+
+    .heading__grid .heading__item .hero__type p{
+        margin-top: 9px;
+    }
+
+    .heading__item .hero__link{
+        font-size: 8px;
+    }
+
+    .subcategories__list{
+        padding-left: 25px;
+    }
+
+    .heading__section.lifestyle9{
+        padding-top: 285px;
+    }
+
+    .subcategories__list.lifestyle_1{
+        padding-left: 8px;
+    }
+
+    .footer__main{
+        margin: 0;
+        height: auto;
+        width: auto;
+    }
+
+    .footer__item{
+        display: flex;
+    }
+
+    .footer__logo{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .footer__logo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .footer_category p{
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .footer_category{
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .footer_category.one{
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer_category.two{
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .subcategories__f__link{
+        font-size: 7px;
+    }
+
+    .subcategories__f__list{
+        margin: 0;
+    }
+
+    .subcategories__f__item{
+        padding: 0;
+    }
+
+    .footer__category__newsletter{
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 0px;
+        width: auto;
+    }
+
+    .footer__button{
+        width: 100px;
+        height: 50px;
+    }
+
+    .btn-red{
+        width: 100px;
+        height: 30px;
+        font-size: 7px;
+    }
+
+    .footer__category__social{
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        font-size: 9px;
+    }
+
+    .footer__category__social p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .social__list{
+        display: block;
+        margin: 0;
+    }
+
+    .social__link img{
+        width: 15px;
+        height: 10px;
+    }
+
+    .social__item{
+        padding: 0;
+        padding-left: 15px;
+    }
+
+    .footer__divider{
+        width: auto;
+        margin: 0;
+    }
+
+    .footer__line{
+        margin:0;
+        width: auto;
+    }
+
+    .footer__content__1{
+        font-size: 7px;
+        padding-left: 5px;
+        padding-right: 185px;
+        width: auto;
+        height: auto;
+    }
+
+    .footer__content__2{
+        width: auto;
+        height: auto;
+        font-size: 7px;
+        padding: 0;
+    }
+}
