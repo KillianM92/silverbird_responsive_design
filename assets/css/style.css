@@ -91,6 +91,7 @@
     justify-content: space-between;
     height: 70px;
     align-items: center;
+    width: 100%;
 }
 
 .nav__menu{
@@ -125,7 +126,7 @@
 .hero__section{
     display: flex;
     height: 697px;
-    width: 100%;
+    width: auto;
     padding-left: 45px;
 }
 
@@ -268,7 +269,7 @@
 }
 
 .heading__section{
-    width: 100%;
+    width: auto;
     height: 491px;
     padding: 50px 0px 0px 46px;
 }
@@ -311,6 +312,7 @@
 
 .heading__grid {
     display: flex;
+    width: 100%;
 }
 
 .heading__item .hero__type h5{
@@ -621,6 +623,7 @@
 body{
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 /* MEDIA QUERIES
@@ -834,12 +837,12 @@ Responsive Design pour Ipad Pro (1024px) */
 @media(device-width: 375px){
 
     body{
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
 
     .header__main{
-       width: auto;
+       width: 100%;
        height: auto; 
     }
 
@@ -871,16 +874,18 @@ Responsive Design pour Ipad Pro (1024px) */
 
     .header__top__menu{
         padding-left: 30px;
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
 
     .header__top__about{
         font-size: 8px;
+        margin: 0;
     }
 
     .header__top__search{
         font-size: 8px;
+        margin: 0;
     }
 
     .header__top__insta img{
@@ -893,7 +898,7 @@ Responsive Design pour Ipad Pro (1024px) */
     }
 
     .header__nav{
-        width: auto;
+        width: 100%;
     }
 
     .line{
@@ -902,7 +907,7 @@ Responsive Design pour Ipad Pro (1024px) */
     }
 
     .nav__list{
-        width: auto;
+        width: 100%;
         height: auto;
         padding: 20px 0px 0px 20px;
         display: flex;
@@ -918,17 +923,13 @@ Responsive Design pour Ipad Pro (1024px) */
     }
 
     .hero__section{
-        padding: 0;
+        padding-left: 8px;
         padding-bottom: 30px;
-        width: auto;
-    }
-
-    .hero__img{
-        width: auto;
+        width: 100%;
     }
 
     .hero__left .hero__img{
-        width: 360px;
+        width: 100%;
         height: auto;
     }
 
@@ -940,7 +941,7 @@ Responsive Design pour Ipad Pro (1024px) */
     .hero__left .hero__content{
         margin-left: 0px;
         padding: 0;
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
@@ -959,7 +960,7 @@ Responsive Design pour Ipad Pro (1024px) */
     }
 
     .hero__title{
-        width: auto;
+        width: 100%;
         height: auto;
         padding-left: 0px;
         font-size: 22px;
@@ -986,7 +987,7 @@ Responsive Design pour Ipad Pro (1024px) */
     }
 
     .hero__right .hero__img{
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
@@ -1001,24 +1002,24 @@ Responsive Design pour Ipad Pro (1024px) */
 
     .hero__right .hero__title{
         margin-top: 5px;
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
     .hero__right .hero__description{
         padding-top: 15px;
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
     .hero__right .hero__link{
         padding-top: 0px;
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
     .newsletter__section{
-        width: auto;
+        width: 100%;
         height: 250px;
         margin-top: 0;
     }
@@ -1026,12 +1027,12 @@ Responsive Design pour Ipad Pro (1024px) */
     .newsletter__title{
         padding: 0;
         font-size: 20px;
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
     .newsletter__desc{
-        width: auto;
+        width: 100%;
         height: auto;
         padding: 0;
         font-size: 12px;
@@ -1052,6 +1053,7 @@ Responsive Design pour Ipad Pro (1024px) */
 
     .heading__section{
         padding: 0;
+        padding-left: 7px;
     }
 
     .heading__title__background__rectangle{
@@ -1093,7 +1095,7 @@ Responsive Design pour Ipad Pro (1024px) */
     .heading__title{
         padding-top: 10px;
         font-size: 18px;
-        width: auto;
+        width: 360px;
     }
 
     .heading__grid .heading__item .hero__type p{
@@ -1119,7 +1121,7 @@ Responsive Design pour Ipad Pro (1024px) */
     .footer__main{
         margin: 0;
         height: auto;
-        width: auto;
+        width: 100%;
     }
 
     .footer__item{
@@ -1242,5 +1244,19 @@ Responsive Design pour Ipad Pro (1024px) */
         height: auto;
         font-size: 7px;
         padding: 0;
+    }
+
+
+    .hero__description{
+        width: 360px;
+
+    }
+
+    .hero__right .hero__content .hero__type{
+        width: 250px;
+    }
+
+    .hero__left .hero__content{
+        width: 360px;
     }
 }
