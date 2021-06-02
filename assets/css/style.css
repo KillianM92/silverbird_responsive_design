@@ -125,7 +125,7 @@
 .hero__section{
     display: flex;
     height: 697px;
-    width: 100%;
+    width: auto;
     padding-left: 45px;
 }
 
@@ -268,7 +268,7 @@
 }
 
 .heading__section{
-    width: 100%;
+    width: auto;
     height: 491px;
     padding: 50px 0px 0px 46px;
 }
@@ -902,7 +902,7 @@ Responsive Design pour Ipad Pro (1024px) */
     }
 
     .nav__list{
-        width: auto;
+        width: 100%;
         height: auto;
         padding: 20px 0px 0px 20px;
         display: flex;
@@ -997,6 +997,7 @@ Responsive Design pour Ipad Pro (1024px) */
     .hero__right .hero__type{
         margin-left: 20px;
         margin-top: 0px;
+        width: 100%;
     }
 
     .hero__right .hero__title{
