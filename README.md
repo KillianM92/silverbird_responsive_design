@@ -1,6 +1,6 @@
 # silverbird_responsive_design
 
-# MOUTINARD Killian B2A INFO
+# B2A INFO
 
 Adaptation d'une maquette au pixel perfect en responsive design (desktop, iPad Pro, iPhone X)
 
